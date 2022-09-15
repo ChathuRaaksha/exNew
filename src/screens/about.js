@@ -10,7 +10,7 @@ import TeamItem from '../components/TeamItem';
 
 function About() {
   return (
-    <div className='set1' style={{height:'370vh'}}>
+    <div className='set1' style={{height:'390vh'}}>
     <div className='aboutus2' style={{display:'flex'}}>
       <div>
       <h2  style={{marginLeft:'50px',fontSize:'60px',width:'250px',marginTop:'50px',fontFamily:'Sole Serif Caption',fontWeight:'bold'}}>About Us</h2>

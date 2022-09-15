@@ -4,32 +4,19 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import footerlogo from '../images/footer.PNG'
+import footerlogo2 from '../images/footerNew.jpg'
 import '../css/footer.css';
 function Footer() {
   return (
     <div>
-     
-     
+      
 
-      <div className='footer'>
-      <div className='left'>
-                <div className='leftTop'style={{backgroundImage:`url(${footerlogo})`}}>
-                  
-                </div>
-          </div>
-
-            <div className='socialmedia'> 
-           
-                <InstagramIcon/>    <TwitterIcon/>  <FacebookIcon/>  <LinkedInIcon/>      
-            </div>
-            <p> &copy; 2022 oshanipizza.com
-            </p>
-              </div>
+         <img style={{ fontSize:'13px',color:'blue', width:'100%',height:'220px'}}src={footerlogo2} />
     
       <div className='bottomfooter'>
 
-      <p> Copyrights &copy; 2021 All Rights Reserved EXRYGEN LIMITED
-            </p>
+            <p> Copyrights &copy; 2021 All Rights Reserved EXRYGEN LIMITED
+                  </p>
       </div>
 
     </div>
