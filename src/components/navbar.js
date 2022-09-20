@@ -26,7 +26,7 @@ function Navbar() {
                     <Link to="/contact">Case Studies & Projects</Link>
                     <Link to="/">Client Portfolio</Link>
                     <Link to="/contact">Contact</Link>
-                    <SearchOutlinedIcon/>
+                 
                 </div>
             </div>
             <div className='rightSide'>
@@ -36,7 +36,7 @@ function Navbar() {
                     <Link to="/contact">Case Studies & Projects</Link>
                     <Link to="/">Client Portfolio</Link>
                     <Link to="/contact">Contact</Link>
-                    <SearchOutlinedIcon style={{ color: 'white' }}/>
+                    
                  <button onClick={toggleNavBar}>
                     <ReorderIcon />
                 </button>

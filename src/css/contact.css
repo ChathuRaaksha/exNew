@@ -142,3 +142,81 @@ form button {
   opacity: 1;
   background: transparent  0% 0% no-repeat padding-box;
 }
+
+
+
+@media only screen and (max-width: 1300px) {
+  
+  .ha{
+    height: 150px;
+    width: 250px;
+    font-size: 50px;
+    margin-left: -15px;
+   
+  }
+
+  .ha2{
+    height: 150px;
+    width: 250px;
+    margin-left: -15px;
+    margin-top: -80px;
+  }
+  .ha3{
+    height: 150px;
+    width: 350px;
+    margin-left: -15px;
+    margin-top: -80px;
+  }
+  .images{
+    margin-top: -150px;
+    margin-left: -15px;
+  }
+  .crd2{
+    height: 150px;
+    width: 350px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: -80px;
+  }
+  .crd1{
+    height: 150px;
+    width: 350px;
+    margin-left: -505px;
+    margin-right: 80px;
+    margin-top: -720px;
+  }
+
+  .rightSide{
+    height: 150px;
+    width: 350px;
+    margin-left: -585px;
+    margin-right: 180px;
+    margin-top: -720px;
+  }
+
+  .form {
+    margin-left: -150px;
+    margin-top: -650px;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    padding: 30px;
+  }
+  .ha6{
+   
+    margin-left: -355px;
+    margin-top: 450px;
+  }
+
+  .fa{
+   
+    margin-left: -355px;
+    margin-top: 650px;
+  }
+  .mapouter{
+    display: none;
+  }
+}
+
+ 

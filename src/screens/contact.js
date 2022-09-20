@@ -8,8 +8,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {Form} from 'react-bootstrap';
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
-import PhoneIcon from '@mui/icons-material/Phone';
 import Button from '@mui/material/Button';
+import PhoneIcon from '@mui/icons-material/Phone';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import EmailIcon from '@mui/icons-material/Email';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
@@ -24,9 +24,9 @@ function Contact() {
 
 <div className='contact'>
       <div className='leftSide'>
-        <h1>Contact Us</h1>
-        <h4>We'd love to hear about your project</h4>
-            <p style={{color:'#929292'}}>Whether you're driven by a need to modernise,to gain
+        <h1 className='ha'>Contact Us</h1>
+        <h4 className='ha2'>We'd love to hear about your project</h4>
+            <p className='ha3'style={{color:'#929292'}}>Whether you're driven by a need to modernise,to gain
               a competetive edge,or to overcome a frustrating operational blocker,
               we're adept at crafting bespoke solutions that deliver real business
               value that will help your business grow.
@@ -45,12 +45,12 @@ function Contact() {
 
 
   </div>
-    <Card style={{color:'white', marginLeft:'90px',marginRight:'20px',height:'540px'}}>
+    <Card className='crd1' style={{color:'white', marginLeft:'40px',marginRight:'20px',height:'540px'}}>
   <div className='secondpage'style={{marginLeft:'35px'}}>
       <div className='card2' style={{marginLeft:'010px',width:'355px',height:'550px',marginTop:'50px'}}>
       <Box sx={{ minWidth: 275 ,width:'355px',height:'553px', backgroundColor:'#F0F7FF',marginLeft:'-44px' ,marginTop:'-45px',marginBottom:'-45px'}}>
-     <Card style={{width:'355px',height:'540px', backgroundColor:'#F0F7FF',}}>
-      <h1 style={{font:'normal normal medium 32px/48px Poppins',fontSize:'20px',marginLeft:'30px',marginTop:'50px'}}>Tell Us About Your Project</h1>
+     <Card className='crd2'style={{width:'355px',height:'540px', backgroundColor:'#F0F7FF',}}>
+      <h1 className='ha4' style={{font:'normal normal medium 32px/48px Poppins',fontSize:'20px',marginLeft:'30px',marginTop:'50px'}}>Tell Us About Your Project</h1>
       <p style={{marginTop:'-25px',font:'normal normal normal 20px/46px SF Pro Display',fontSize:'13px',color:'#707070',marginLeft:'30px'}}>We are also active in social media. You can find us on below.</p>
        <h5 style={{marginTop:'-25px',font:'normal normal medium 20px/34px Noto Sans',fontSize:'13px',color:'#000000',marginLeft:'30px'}}><LocationOnIcon style={{color: '#A85EE7 ',width:'15px'}}/> Loreum Ipsum dummy (Sri Lanka) Dummy text , Colombo 03</h5>
       <h5 style={{marginLeft:"30px", fontSize:'13px'}}><PhoneIcon style={{color: '#A85EE7 ',width:'15px'}}/> 94 11 2xxxxxxx</h5>
@@ -68,7 +68,7 @@ function Contact() {
            <Form id='login-form' method='POST' style={{marginBottom:'900px'}}>
             <div style={{flexDirection:'row',display:'flex'}}>
             <Form.Group controlId="formBasicEmail" style={{marginTop:'30px'}}>
-                               <Form.Label style={{alignItems:'center',alignContent:'center',color:'black',marginLeft:'210px'}}>Name </Form.Label>
+                               <Form.Label classNstyle={{alignItems:'center',alignContent:'center',color:'black',marginLeft:'210px'}}>Name </Form.Label>
                                <Form.Label style={{color:'red',marginLeft:'10px'}}>*</Form.Label>
                                 <Form.Control style={{borderRadius:'90px',width:'270px',marginLeft:'100px',border:'1px solid #8F8F8F'}}  type="text"  name='fullname' 
   required />
@@ -107,7 +107,7 @@ function Contact() {
                                <textarea style={{borderRadius:'44px',width:'650px',height:'133px',marginLeft:'100px',border:'1px solid #8F8F8F'}} id="exampleFormControlTextarea1" rows="5" ></textarea>
                             </Form.Group>
 
-                            <Button  style={{marginLeft:'290px',marginBottom:'150px',marginTop:'30px',color:'white',backgroundColor:'#18373C',borderInlineColor:'white',borderBlockColor:'white',width:'168px', background: "linear-gradient(#A95DE7, #727BF0)"}}>Submit  <ArrowForwardIcon style={{color:'white'}}/> </Button>
+                            <Button className='fa' style={{marginLeft:'290px',marginBottom:'150px',marginTop:'30px',color:'white',backgroundColor:'#18373C',borderInlineColor:'white',borderBlockColor:'white',width:'168px', background: "linear-gradient(#A95DE7, #727BF0)"}}>Submit  <ArrowForwardIcon style={{color:'white'}}/> </Button>
    
                             </Form>
 

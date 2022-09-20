@@ -12,7 +12,7 @@ function About() {
   return (
     <div className='set1' style={{height:'390vh'}}>
     <div className='aboutus2' style={{display:'flex'}}>
-      <div>
+      <div className='ab'>
       <h2  style={{marginLeft:'50px',fontSize:'60px',width:'250px',marginTop:'50px',fontFamily:'Sole Serif Caption',fontWeight:'bold'}}>About Us</h2>
       <h5 style={{marginLeft:'50px',fontSize:'27px',width:'450px',marginTop:'50px', fontFamily:'Noto Sans',fontWeight:'Regular',}}>Trusted software development:delivered intelligently, designed to unlock growth</h5>
       <p style={{marginLeft:'50px',marginTop:'20px',color:'#929292',fontSize:'15px'}}>Whether you're driven by a need to modernise,to gain
@@ -54,8 +54,8 @@ function About() {
 
 
     <div className='aboutus4' style={{display:'flex'}}>
-      <div>
-      <h2  style={{marginLeft:'150px',fontSize:'50px',width:'450px',marginTop:'280px',color:'#FF5400',fontFamily:'Sole Serif Caption',fontWeight:'bold'}}>#Meet Our Team</h2>
+      <div className='abt4'>
+      <h2 className='ta' style={{marginLeft:'150px',fontSize:'50px',width:'450px',marginTop:'280px',color:'#FF5400',fontFamily:'Sole Serif Caption',fontWeight:'bold'}}>#Meet Our Team</h2>
       <p style={{marginLeft:'150px',width:'450px',marginTop:'20px',fontSize:'15px',alignContent:'center',fontFamily:'Noto Sans',alignItems:'center'}}>
         Our Team of 300+ people mixes together all of the ingredients we belive are required 
         for a successful software development company. We have highly talented, energetic software developers,architects and
@@ -63,8 +63,8 @@ function About() {
         the methodological project managers and designers, driven management with a focus for quality and delivery, and the inovaters 
         that transform the way we look at things.
       </p>
-      <Button  style={{marginLeft:'150px',marginTop:'50px',color:'white',fontFamily:'Segoe UI',backgroundColor:'#18373C',borderInlineColor:'white',fontWeight:'Semibold',fontSize:'12px',height:'40px',borderBlockColor:'white',width:'175px', background: "linear-gradient(#DF4613, #8E0969)"}}>JOIN WITH OUR TEAM</Button>
-      <img style={{marginLeft:'750px',width:'450px',marginTop:'-351px',}}src={img4}/>
+      <Button className='btn' style={{marginLeft:'150px',marginTop:'50px',color:'white',fontFamily:'Segoe UI',backgroundColor:'#18373C',borderInlineColor:'white',fontWeight:'Semibold',fontSize:'12px',height:'40px',borderBlockColor:'white',width:'175px', background: "linear-gradient(#DF4613, #8E0969)"}}>JOIN WITH OUR TEAM</Button>
+      <img className='img1'style={{marginLeft:'750px',width:'450px',marginTop:'-351px',}}src={img4}/>
       <hr style={{width:'85%',marginLeft:'50px'}}/>
       </div>
       
